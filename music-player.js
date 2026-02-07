@@ -2,7 +2,10 @@
  * 音乐播放器组件（最终增强版）
  * 左下角固定播放器，与 IP 欢迎组件对称平齐
  */
-
+document.body.insertAdjacentHTML(
+  'afterbegin',
+  '<div style="position:fixed;top:0;left:0;z-index:99999;background:red;color:#fff;padding:6px 10px;font-size:12px">NEW MUSIC PLAYER</div>'
+);
 (function () {
     'use strict';
 
